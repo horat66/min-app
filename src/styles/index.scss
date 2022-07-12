@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    font-size: 62.5%; //General Font size 1 em, rem = 10 px
+    width: 100%;
+    color: $dark;
+    margin: 0;
+    padding: 0; 
+}
+
+#root {
+    height: 100%;
+}
+ 
+  
+section {
+    
+    color:black;
+    background-color:white;
+    height: 100vh;
+  }
+  
+  
