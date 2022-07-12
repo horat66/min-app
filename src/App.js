@@ -55,7 +55,7 @@ function App() {
         <Routes>
             <Route path='/' element={ <Header /> }>
                 {/*<Route index element={ <Inicio /> } />*/}
-                <Route index element={ <EnergiaInicio /> } />
+                <Route index element={ <EnergiaGeneracion /> } />
                 <Route path='energia' element={ <EnergiaInicio />}>
                     <Route path='generacion' element={ <EnergiaGeneracion />} />
                     <Route path='transmision' element={ <EnergiaTransmision />} />
